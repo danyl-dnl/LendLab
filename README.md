@@ -1,16 +1,31 @@
-# idealab_app
+# IdeaLab Equipment Manager 🛠️
 
-A new Flutter project.
+A modern Flutter application designed for maker spaces, robotics labs, and university workshops. IdeaLab simplifies the process of tracking inventory, handling student requests, and managing equipment loans (microcontrollers, sensors, tools, and components).
 
-## Getting Started
+## 🌟 Features
 
-This project is a starting point for a Flutter application.
+* **Role-Based Dashboards:** Dedicated interfaces for Students (borrowers) and Admins (managers).
+* **Inventory Tracking:** Categorized inventory system (Microcontrollers, Sensors, Tools, Components).
+* **Request System:** Students can browse the catalog and submit requests for specific quantities of items.
+* **Loan Management:** Admins can approve/reject requests, issue equipment, and track active or overdue loans.
+* **Real-time Database:** Powered by Firebase Cloud Firestore for instant updates across all devices.
+* **Smart Onboarding:** Automatically generates demo inventory and sample requests on first launch for testing.
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **Framework:** [Flutter](https://flutter.dev/) (Dart)
+* **Backend:** [Firebase](https://firebase.google.com/) (Authentication & Cloud Firestore)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Getting Started
+
+Follow these steps to get the project up and running on your local machine.
+
+### Prerequisites
+1. Install [Flutter SDK](https://docs.flutter.dev/get-started/install) (Version 3.10.0 or higher recommended).
+2. Install [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/) with the Flutter & Dart extensions.
+3. Have a Google account to set up Firebase.
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+cd YOUR-REPO-NAME
